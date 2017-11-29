@@ -121,6 +121,13 @@ h3:after{
   margin: 0 24px 43px 0;
   box-shadow: 7px 7px 5px rgba(226,222,222,0.75);
 }
+.product1{
+  float: left;
+  width: 316px;
+  height: 480px;
+  margin: 0 24px 43px 0;
+  box-shadow: 7px 7px 5px rgba(226,222,222,0.75);
+}
 .product-img{
   height: 203px;
   background: url(../img/product.jpg) no-repeat 0 0;
@@ -156,6 +163,18 @@ h3:after{
   font-weight: bold;
 }
 .product a{
+  display: block;
+  width: 86px;
+  height: 23px;
+  border: 2px solid #666;
+  margin: 7px auto 0;
+  line-height: 22px;
+  font-size: 13px;
+  color: #666;
+  border-radius: 9px;
+  text-align: center;
+}
+.product1 a{
   display: block;
   width: 86px;
   height: 23px;
