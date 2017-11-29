@@ -1,0 +1,439 @@
+body{
+  font-family: Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;
+	padding:0;
+  margin: 0;
+  overflow-x: hidden;
+}
+h2,h3,h4,p{
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+a{
+  text-decoration: none;
+}
+.banner{
+  height: 671px;
+  background: url(../img/banner.jpg) no-repeat center top;
+}
+.w1002{
+  position: relative;
+  width: 1002px;
+  margin: 0 auto;
+}
+.wrap-about{
+  height: 658px;
+  background-color: #f6f6f6;
+}
+#qqbu{
+  height: 29px;
+  padding: 72px 0 0;
+  margin-bottom: 67px;
+  background: url(../img/qqbu.png) no-repeat center bottom;
+}
+.about{
+  height: 447px;
+  padding: 24px 0 0 488px;
+  background: url(../img/more.jpg) no-repeat left top;
+  font-size: 16px;
+  color: #666;
+  line-height: 24px;
+  letter-spacing: 1.4px;
+}
+h3{
+  position: relative;
+  padding: 80px 0 65px;
+  font-size: 30px;
+  color: #8db50f;
+  line-height: 30px;
+}
+h3:after{
+  content:" ";
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 94px;
+  height: 9px;
+  background-color: #8db50f;
+}
+.clearfix:after{
+  visibility:hidden;
+  display:block;
+  font-size:0;
+  content:" ";
+  clear:both;
+  height:0;
+}
+.why-li{
+  position: relative;
+  float: left;
+  width: 326px;
+  height: 386px;
+  margin-right: 12px;
+  background: url(../img/why.jpg) no-repeat 0 0;
+}
+.why-li2{
+  background-position: -326px 0;
+}
+.why-li3{
+  margin-right: 0;
+  background-position: -652px 0;
+}
+.why-slogan{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 34px;
+  background-color: rgba(99,99,99,0.9);
+  line-height: 34px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.why-slgan-min{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(141,181,15,0.95);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 600ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+.why-slgan-min span{
+  display: inline-block;
+  padding-top: 58px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+}
+.why-li:hover .why-slgan-min{
+  opacity: 1;
+  transition: opacity 600ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+.product{
+  float: left;
+  width: 316px;
+  height: 540px;
+  margin: 0 24px 43px 0;
+  box-shadow: 7px 7px 5px rgba(226,222,222,0.75);
+}
+.product-img{
+  height: 203px;
+  background: url(../img/product.jpg) no-repeat 0 0;
+}
+.product-img-c5{
+  background-position: -316px 0;
+}
+.product-img-skiing{
+  background-position: -632px 0;
+}
+.product-img-skiing2{
+  background-position: 0 -203px;
+}
+.product-img-nasa{
+  background-position: -316px -203px;
+}
+.product-img-singapore{
+  background-position: -632px -203px;
+}
+.product-title{
+  padding: 6px 0 0 19px;
+  line-height: 42px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.product-about{
+  padding-left: 19px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #555;
+}
+.product-about span{
+  font-weight: bold;
+}
+.product a{
+  display: block;
+  width: 86px;
+  height: 23px;
+  border: 2px solid #666;
+  margin: 7px auto 0;
+  line-height: 22px;
+  font-size: 13px;
+  color: #666;
+  border-radius: 9px;
+  text-align: center;
+}
+.feel{
+  position: relative;
+}
+.feel-parent{
+  position: relative;
+  float: left;
+  width: 524px;
+  height: 200px;
+  margin: 0 12px 16px 0;
+  background-color: #50accc;
+}
+.feel-parent .feel-words{
+  padding: 57px 0 0 63px;
+}
+.feel-words h4{
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 14px;
+}
+.feel-words p{
+  padding-top: 10px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #fff;
+  letter-spacing: 0.8px;
+}
+.feel-blackboard{
+  float: right;
+  width: 462px;
+  height: 444px;
+  background: url(../img/feel.jpg) no-repeat top right;
+}
+.feel-team{
+  float: left;
+  width: 522px;
+  height: 228px;
+  background: url(../img/feel.jpg) no-repeat 0 0;
+}
+.feel-agirl{
+  float: left;
+  width: 447px;
+  height: 240px;
+  margin-top: 12px;
+  background: url(../img/feel.jpg) no-repeat -524px bottom;
+}
+.feel-parenttwo{
+  position: relative;
+  float: right;
+  width: 539px;
+  height: 240px;
+  margin-top: 12px;
+  background-color: #667123;
+}
+.feel-parenttwo .feel-words{
+  padding: 73px 0 0 63px;
+}
+.little-xin{
+  float: left;
+  width: 485px;
+  height: 297px;
+  margin-top: 32px;
+  background-color: #cb372b;
+}
+.feel-words-to{
+  padding: 26px 0 0 46px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 22px;
+  letter-spacing: .7px;
+}
+.feel-words-to p{
+  padding-right: 42px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: right;
+}
+.little-xin-photo{
+  float: right;
+  width: 489px;
+  height: 298px;
+  margin-top: 32px;
+  background: url(../img/feel.jpg) no-repeat 0 -228px;
+}
+.summer-photo{
+  float: left;
+  width: 483px;
+  height: 298px;
+  margin-top: 26px;
+  background: url(../img/feel.jpg) no-repeat -524px 0;
+}
+.summer{
+  float: right;
+  width: 489px;
+  height: 297px;
+  margin-top: 26px;
+  background-color: #e67737;
+}
+.summer .feel-words-to{
+  padding: 57px 0 0 63px;
+  line-height: 26px;
+}
+.summer .feel-words-to p{
+  padding-right: 59px;
+}
+.leader-feel{
+  position: absolute;
+  top: 980px;
+  left: 50%;
+  width: 114px;
+  height: 114px;
+  margin-left: -57px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #8db50f;
+  line-height: 114px;
+  text-align: center;
+  font-weight: bold;
+}
+.footer{
+  height: 282px;
+  margin-top: 40px;
+  background: #f6f6f6 url(../img/foot.png) repeat-x center bottom;
+}
+.qr{
+  position: absolute;
+  top: 68px;
+  left: 194px;
+  width: 114px;
+  height: 132px;
+  background: url(../img/qr.png) no-repeat 0 0;
+}
+.contact-us{
+  padding: 72px 0 0 423px;
+  color: #667123;
+  line-height: 14px;
+  font-size: 12px;
+}
+.click-btn{
+  display: block;
+  width: 116px;
+  height: 32px;
+  margin-bottom: 9px;
+  background: url(../img/qr.png) no-repeat right top;
+}
+.contact-us p{
+  position: relative;
+  padding: 12px 0 0 28px;
+}
+.contact-us p a{
+  color: #667123;
+}
+.contact-us p span{
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 16px;
+  height: 14px;
+  background-image: url(../img/qr.png);
+  background-repeat: no-repeat;
+}
+.phone{
+  background-position: -114px -32px;
+}
+.url{
+  background-position: -114px -46px;
+}
+.address{
+  background-position: -114px -60px;
+}
+.top-line{
+  position: absolute;
+  top: 22px;
+  left: 38px;
+  width: 26px;
+  height: 1px;
+  background-color: #fff;
+}
+.top-line:after{
+  content: " ";
+  position: absolute;
+  top: -3px;
+  left: 3px;
+  width: 1px;
+  height: 26px;
+  background-color: #fff;
+}
+.down-line{
+  position: absolute;
+  right: 45px;
+  bottom: 21px;
+  width: 26px;
+  height: 1px;
+  background-color: #fff;
+}
+.down-line:after{
+  content: " ";
+  position: absolute;
+  right: 3px;
+  bottom: -3px;
+  width: 1px;
+  height: 26px;
+  background-color: #fff;
+}
+.feel-parenttwo .top-line{
+  top: 39px;
+  left: 36px;
+}
+.feel-parenttwo .down-line{
+  right: 62px;
+  bottom: 44px;
+}
+.ask-bar{
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  width: 96px;
+  height: 552px;
+  margin: -276px 0 0 0;
+  background: url(../img/ask.png) no-repeat 0 0;
+}
+#askdialog{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 369px;
+  height: 259px;
+  margin: -129px 0 0 -184px;
+  background: url(../img/ask.png) no-repeat right top;
+  transform: translate(0,-1000px);
+  transition: transform 500ms;
+  box-shadow: 0 2px 2px #666;
+  border-radius: 8px;
+}
+#askdialog.show{
+  transform: translate(0,0px);
+}
+#close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 44px;
+  height: 44px;
+}
+#askbtn{
+  display: block;
+  width: 108px;
+  height: 34px;
+  margin: 201px 0 0 132px;
+}
+.leftbg{
+  position: absolute;
+  top: 1348px;
+  left: 50%;
+  margin-left: -1018px;
+  width: 493px;
+  height: 3091px;
+  background: url(../img/leftbg.png) no-repeat 0 0;
+}
+.rightbg{
+  position: absolute;
+  top: 1364px;
+  left: 50%;
+  margin-left: 534px;
+  width: 411px;
+  height: 3112px;
+  background: url(../img/rightbg.png) no-repeat 0 0;
+}
