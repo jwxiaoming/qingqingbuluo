@@ -22,7 +22,7 @@ a{
   margin: 0 auto;
 }
 .wrap-about{
-  height: 658px;
+  height: 710px;
   background-color: #f6f6f6;
 }
 #qqbu{
@@ -33,12 +33,12 @@ a{
 }
 .about{
   height: 447px;
-  padding: 24px 0 0 488px;
+  padding: 0 0 0 488px;
   background: url(../img/more.jpg) no-repeat left top;
   font-size: 16px;
   color: #666;
   line-height: 24px;
-  letter-spacing: 1.4px;
+  letter-spacing: 2px;
 }
 h3{
   position: relative;
@@ -117,14 +117,14 @@ h3:after{
 .product{
   float: left;
   width: 316px;
-  height: 540px;
+  height: 630px;
   margin: 0 24px 43px 0;
   box-shadow: 7px 7px 5px rgba(226,222,222,0.75);
 }
 .product1{
   float: left;
   width: 316px;
-  height: 480px;
+  height: 560px;
   margin: 0 24px 43px 0;
   box-shadow: 7px 7px 5px rgba(226,222,222,0.75);
 }
@@ -148,16 +148,24 @@ h3:after{
   background-position: -632px -203px;
 }
 .product-title{
-  padding: 6px 0 0 19px;
+  padding: 6px 0 0 10px;
   line-height: 42px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
 }
 .product-about{
-  padding-left: 19px;
-  font-size: 12px;
-  line-height: 20px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 25px;
   color: #555;
+  height: 330px;
+}
+.product-about1{
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #555;
+  height: 260px;
 }
 .product-about span{
   font-weight: bold;
