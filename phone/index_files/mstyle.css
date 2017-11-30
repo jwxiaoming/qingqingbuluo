@@ -210,10 +210,10 @@ h3{
   text-align: center;
   box-sizing: border-box;
 }
-.product a:hover{
+/* .product a:hover{
   background-color: #888;
   color: #fff;
-}
+} */
 .product1 a{
   position: absolute;
   left: 46%;
