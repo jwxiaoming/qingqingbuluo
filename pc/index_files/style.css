@@ -22,7 +22,7 @@ a{
   margin: 0 auto;
 }
 .wrap-about{
-  height: 710px;
+  height: 780px;
   background-color: #f6f6f6;
 }
 #qqbu{
@@ -117,7 +117,7 @@ h3:after{
 .product{
   float: left;
   width: 316px;
-  height: 630px;
+  height: 540px;
   margin: 0 24px 43px 0;
   box-shadow: 7px 7px 5px rgba(226,222,222,0.75);
 }
@@ -158,7 +158,8 @@ h3:after{
   font-size: 14px;
   line-height: 25px;
   color: #555;
-  height: 330px;
+  height: 240px;
+  width: 300px;
 }
 .product-about1{
   padding-left: 10px;
