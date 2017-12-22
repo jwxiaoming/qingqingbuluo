@@ -117,14 +117,14 @@ h3:after{
 .product{
   float: left;
   width: 316px;
-  height: 540px;
+  height: 600px;
   margin: 0 24px 43px 0;
   box-shadow: 7px 7px 5px rgba(226,222,222,0.75);
 }
 .product1{
   float: left;
   width: 316px;
-  height: 560px;
+  height: 600px;
   margin: 0 24px 43px 0;
   box-shadow: 7px 7px 5px rgba(226,222,222,0.75);
 }
@@ -158,7 +158,7 @@ h3:after{
   font-size: 14px;
   line-height: 25px;
   color: #555;
-  height: 240px;
+  height: 300px;
   width: 300px;
 }
 .product-about1{
@@ -166,7 +166,7 @@ h3:after{
   font-size: 14px;
   line-height: 25px;
   color: #555;
-  height: 260px;
+  height: 300px;
 }
 .product-about span{
   font-weight: bold;
