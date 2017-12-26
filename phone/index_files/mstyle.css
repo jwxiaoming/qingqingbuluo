@@ -27,11 +27,11 @@ a{
   background-size: 14.2rem auto;
 }
 .about{
-  padding: 1rem 1rem 0;
+  padding: 0rem 1rem 0;
   margin: 0 auto;
   background-size: 10.7rem auto;
   font-size: 0.6rem;
-  color: #5b5c5c;
+  color: #8a8a8a;
   line-height: 1rem;
   letter-spacing: 0.05rem;
 }
@@ -122,7 +122,7 @@ h3{
   /* height: 13.35rem; */
   height: 23rem;
   margin: 0 .25rem 1.05rem;
-  box-shadow: 0 0.15rem 0.1rem #e4e4e4;
+  box-shadow: 0 0.15rem 1rem 0px #e4e4e4;
   vertical-align: top;
   position: relative;
 }
@@ -132,7 +132,7 @@ h3{
   /* height: 13.35rem; */
   height: 24rem;
   margin: 0 .25rem 1.05rem;
-  box-shadow: 0 0.15rem 0.1rem #e4e4e4;
+  box-shadow: 0 0.15rem 1rem 0px #e4e4e4;
   vertical-align: top;
   position: relative;
 }
@@ -142,7 +142,7 @@ h3{
   /* height: 13.35rem; */
   height: 24rem;
   margin: 0 .25rem 1.05rem;
-  box-shadow: 0 0.15rem 0.1rem #e4e4e4;
+  box-shadow: 0 0.15rem 1rem 0px #e4e4e4;
   vertical-align: top;
   position: relative;
 }
@@ -152,7 +152,7 @@ h3{
   /* height: 13.35rem; */
   height: 25rem;
   margin: 0 .25rem 1.05rem;
-  box-shadow: 0 0.15rem 0.1rem #e4e4e4;
+  box-shadow: 0 0.15rem 1rem 0px #e4e4e4;
   vertical-align: top;
   position: relative;
 }
@@ -162,7 +162,7 @@ h3{
   /* height: 13.35rem; */
   height: 23rem;
   margin: 0 .25rem 1.05rem;
-  box-shadow: 0 0.15rem 0.1rem #e4e4e4;
+  box-shadow: 0 0.15rem 1rem 0px #e4e4e4;
   vertical-align: top;
   position: relative;
 }
@@ -188,16 +188,16 @@ h3{
   background-position: -15.8rem -5.1rem;
 }
 .product-title{
-  padding: 0 0 .125rem 0.25rem;
+  padding: 0 0 .125rem 0.5rem;
   line-height: 1.5rem;
   font-size: 0.65rem;
   font-weight: bold;
   text-align: left;
 }
 .product-about{
-  padding: 0 0.15rem 0 0.25rem;
+  padding: 0 0.15rem 0 0.5rem;
   font-size: .6rem;
-  line-height: 1rem;
+  line-height: 1.1rem;
   color: #888;
   text-align: left;
 }

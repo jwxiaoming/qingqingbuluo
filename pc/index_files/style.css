@@ -22,7 +22,7 @@ a{
   margin: 0 auto;
 }
 .wrap-about{
-  height: 780px;
+  height: 730px;
   background-color: #f6f6f6;
 }
 #qqbu{
@@ -36,7 +36,7 @@ a{
   padding: 0 0 0 488px;
   background: url(../img/more.jpg) no-repeat left top;
   font-size: 16px;
-  color: #666;
+  color: #a8a8a8;
   line-height: 24px;
   letter-spacing: 2px;
 }
@@ -88,7 +88,7 @@ h3:after{
   background-color: rgba(99,99,99,0.9);
   line-height: 34px;
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
 }
 .why-slgan-min{
@@ -104,9 +104,9 @@ h3:after{
 }
 .why-slgan-min span{
   display: inline-block;
-  padding-top: 58px;
+  padding: 10px;
   text-align: left;
-  line-height: 40px;
+  line-height: 30px;
   font-size: 16px;
   color: #fff;
 }
@@ -119,14 +119,14 @@ h3:after{
   width: 316px;
   height: 600px;
   margin: 0 24px 43px 0;
-  box-shadow: 7px 7px 5px rgba(226,222,222,0.75);
+  box-shadow: 0 0.15rem 1rem 0px #e4e4e4;
 }
 .product1{
   float: left;
   width: 316px;
-  height: 600px;
+  height: 580px;
   margin: 0 24px 43px 0;
-  box-shadow: 7px 7px 5px rgba(226,222,222,0.75);
+  box-shadow: 0 0.15rem 1rem 0px #e4e4e4;
 }
 .product-img{
   height: 203px;
@@ -158,7 +158,7 @@ h3:after{
   font-size: 14px;
   line-height: 25px;
   color: #555;
-  height: 300px;
+  height: 280px;
   width: 300px;
 }
 .product-about1{
@@ -166,7 +166,7 @@ h3:after{
   font-size: 14px;
   line-height: 25px;
   color: #555;
-  height: 300px;
+  height: 260px;
 }
 .product-about span{
   font-weight: bold;
@@ -464,4 +464,22 @@ h3:after{
   width: 411px;
   height: 3112px;
   background: url(../img/rightbg.png) no-repeat 0 0;
+}
+.gundong{
+  width: 100%;
+  height: 135px;
+  background-color: #cb372c;
+  /* border: 1px inset #3d0506; */
+  margin-right: 46px;
+  color: white;
+}
+marquee{
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 130px;
+}
+.wenzi{
+  font-size: 18px;
+  line-height: 40px;
+  color: white;
 }
