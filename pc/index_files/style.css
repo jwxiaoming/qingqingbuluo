@@ -25,6 +25,7 @@ a{
 .wrap-about{
   height: 730px;
   background-color: #f6f6f6;
+  margin-top: -20px;
 }
 #qqbu{
   height: 29px;
@@ -36,9 +37,9 @@ a{
   height: 447px;
   padding: 0 0 0 488px;
   background: url(../img/more.jpg) no-repeat left top;
-  font-size: 16px;
-  color: #a8a8a8;
-  line-height: 24px;
+  font-size: 20px;
+  color: #696969;
+  line-height: 42px;
   letter-spacing: 2px;
   font-family: 'pingfang';
 }
@@ -121,14 +122,14 @@ h3:after{
 .product{
   float: left;
   width: 316px;
-  height: 650px;
+  height: 590px;
   margin: 0 24px 43px 0;
   box-shadow: 0 0.15rem 1rem 0px #e4e4e4;
 }
 .product1{
   float: left;
   width: 316px;
-  height: 630px;
+  height: 600px;
   margin: 0 24px 43px 0;
   box-shadow: 0 0.15rem 1rem 0px #e4e4e4;
 }
@@ -163,7 +164,7 @@ h3:after{
   font-size: 14px;
   line-height: 25px;
   color: #555;
-  height: 310px;
+  height: 260px;
   width: 300px;
   font-family: 'pingfang';
 }
@@ -172,7 +173,7 @@ h3:after{
   font-size: 14px;
   line-height: 25px;
   color: #555;
-  height: 290px;
+  height: 265px;
   font-family: 'pingfang';
 }
 .product-about span{
