@@ -122,14 +122,14 @@ h3:after{
 .product{
   float: left;
   width: 316px;
-  height: 590px;
+  height: 510px;
   margin: 0 24px 43px 0;
   box-shadow: 0 0.15rem 1rem 0px #e4e4e4;
 }
 .product1{
   float: left;
   width: 316px;
-  height: 600px;
+  height: 540px;
   margin: 0 24px 43px 0;
   box-shadow: 0 0.15rem 1rem 0px #e4e4e4;
 }
@@ -164,7 +164,7 @@ h3:after{
   font-size: 14px;
   line-height: 25px;
   color: #555;
-  height: 260px;
+  height: 180px;
   width: 300px;
   font-family: 'pingfang';
 }
@@ -173,7 +173,7 @@ h3:after{
   font-size: 14px;
   line-height: 25px;
   color: #555;
-  height: 265px;
+  height: 210px;
   font-family: 'pingfang';
 }
 .product-about span{
@@ -475,7 +475,7 @@ h3:after{
 }
 .gundong{
   width: 100%;
-  height: 106px;
+  height: 86px;
   background-color: #cb372c;
   /* border: 1px inset #3d0506; */
   margin-right: 46px;
@@ -485,7 +485,7 @@ h3:after{
 marquee{
   margin-left: 20px;
   margin-right: 20px;
-  height: 80px;
+  height: 60px;
   margin-top: -5px;
   font-family: 'pingfang';
 }
