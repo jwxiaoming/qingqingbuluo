@@ -325,18 +325,11 @@ h3:after{
   font-weight: bold;
 }
 .footer{
-  height: 282px;
+  height: 350px;
   margin-top: 40px;
   background: #f6f6f6 url(../img/foot.png) repeat-x center bottom;
 }
-.qr{
-  position: absolute;
-  top: 68px;
-  left: 194px;
-  width: 114px;
-  height: 132px;
-  background: url(../img/qr.png) no-repeat 0 0;
-}
+
 .contact-us{
   padding: 72px 0 0 423px;
   color: #667123;
